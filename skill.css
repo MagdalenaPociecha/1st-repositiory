@@ -1,0 +1,30 @@
+
+
+
+#skill{
+     background-color: rgb(68, 3, 3);
+     width:200px;
+     height:250px;
+     border: 1px solid ;
+     
+ }
+ 
+ .main{
+     font-size: 20px;
+     font-weight: 2.5rem; 
+     color: rgb(148, 148, 235);   
+ }
+
+.front {
+     font-size:14 px;
+     text-decoration:underline;
+     color: rgb(55, 62, 156);
+     font-weight:
+ }
+
+ .back{
+    font-size:14 px;
+    text-decoration:underline;
+    color: rgb(55, 62, 156);
+    
+ }
