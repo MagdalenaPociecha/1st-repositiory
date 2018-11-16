@@ -4,13 +4,20 @@
     float:left;
     width: 30%;
     padding: 30px 50px;
+    border-radius: 
     
     
 }
-
+.content-skill{
+    text-align: center;
+}
 
 .front, .back {
     
     text-decoration:underline;
-
+    text-align: left;
+}
+#list{
+    display: flex;
+    justify-content:center;
 }
