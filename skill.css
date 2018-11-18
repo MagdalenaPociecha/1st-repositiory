@@ -1,11 +1,10 @@
 #skill{
-    
-    background-color: rgb(194,55,39);
+    color: white;
+    background-color: #4C7086;
     float:left;
-    width: 30%;
+    width: 50%;
     padding: 30px 50px;
-    border-radius: 
-    
+    box-sizing: border-box;    
     
 }
 .content-skill{
@@ -20,4 +19,8 @@
 #list{
     display: flex;
     justify-content:center;
+    height: 80%;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
 }
