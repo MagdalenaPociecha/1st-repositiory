@@ -48,6 +48,29 @@ body {
     background-color: #ab3212;
 }
 
+#projectlist {
+  top: 20px;
+  text-align: center;
+  width: 40%;
+  padding: 30px 40px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #ab3212;
+  margin: auto;
+
+}
+
+p.opis {
+
+    text-align: left;
+    font-family: Arial;
+    font-size:12px;
+}
+
+.image {
+ width: 50%;
+}
+
 #footer{
     background-color:#e2d5c2;
     font-size:30px;
