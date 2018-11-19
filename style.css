@@ -87,15 +87,13 @@
 }
 
 #projectlist {
-  top: 20px;
   color: white;
   text-align: center;
-  width: 40%;
-  padding: 30px 40px;
+  padding: 30px 50px;
   /* border-style: solid;
   border-width: 2px; */
   background-color: #4C7086;
-  margin: auto;
+  box-sizing: border-box;
 
 }
 
@@ -103,7 +101,7 @@ p.opis {
 
     text-align: left;
     font-family: Arial;
-    font-size:12px;
+    font-size:15px;
 }
 
 .image {
