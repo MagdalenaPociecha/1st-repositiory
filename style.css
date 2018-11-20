@@ -98,15 +98,83 @@ p.opis {
     float:right;
     width: 50%;
     padding: 30px 50px;
-    box-sizing: border-box;    
+    box-sizing: border-box; 
+   
     
 }
+#skill #skill-box{
+    
+    background-color: #4b4747;
+   
+    height: 50%;
+    border: 3px solid #4b4747;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#skill-box .html-box,.css-box, .js-box,.react-box{
+    border: 3px solid #4C7086;
+    width: 50%;
+    box-sizing: border-box;
+    height: 50%;
+    color: white;
+    display: flex;
+}
+
+#skill-box p{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 .content-skill{
     text-align: center;
 }
-.content-skill .front{
-    text-align: left;
+
+.html-box:hover{
+    background-image: url(img/html.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
+.css-box:hover{
+    background-image: url(img/css.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.js-box:hover{
+    background-image: url(img/js.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.react-box:hover{
+    background-image: url(img/react.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#skill-box p:hover{
+    opacity: 0;
+}
+
+
+
+/*podstrona skill*/
 #skill-list{
     width :100%;
     background-color: #4C7086;
