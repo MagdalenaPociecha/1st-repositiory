@@ -127,14 +127,43 @@ p.opis {
     box-sizing: border-box;    
     
 }
+#skill #skill-box{
+    /* padding : 30px; */
+    background-color: #50BBCD;
+    /* margin: 0 auto; */
+    height: 50%;
+    border: 3px solid #4b4747;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#skill-box .html-box,.css-box, .js-box,.react-box{
+    border: 3px solid #4b4747;
+    width: 50%;
+    box-sizing: border-box;
+    height: 50%;
+    color: black;
+    display: flex;
+}
+
+#skill-box p{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+    margin: 0 auto;
+}
+
+
 .content-skill{
     text-align: center;
 }
-.content-skill .front{
+/* .content-skill .front{
     text-align: left;
 
     
-}
+} */
 /*podstrona skill*/
 #skill-list{
     width :100%;
