@@ -68,11 +68,11 @@ body {
     box-sizing: border-box;
 }
 #projectlist {
-  color: white;
-  text-align: center;
-  padding: 30px 50px;
-  background-color: #4C7086;
-  box-sizing: border-box;
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #4C7086;
+    box-sizing: border-box;
 }
 p.opis {
 
@@ -81,7 +81,8 @@ p.opis {
     font-size:15px;
 }
 .image {
- width: 50%;
+    width: 30%;
+    margin: 20px;
 }
 #list{
     display: flex;
@@ -190,7 +191,4 @@ p.opis {
   100% {
     opacity: 1;
   }
-}
-.list {
-    justify-content: space-between;
 }
