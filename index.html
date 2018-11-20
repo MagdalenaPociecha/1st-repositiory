@@ -3,52 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CodersCamp</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>CodersCamp</title>
 </head>
-
 <body>
 <div id="container">
     <div id="header">
         <div id="name"><i class="fas fa-laptop-code"></i><span>Coders Camp</span></div>
         <div id="menu">
             <div class="btn-menu"><a href="index.html">Home</a></div>
-            <div class="btn-menu"><a href="about.html">About</a></div>
-            <div class="btn-menu"><a href="projects.html">Projects</a></div>
-            <div class="btn-menu"><a href="skills.html">Skills</a></div>
-            <div class="btn-menu"><a href="contact.html">Contact</a></div>
+            <div class="btn-menu"><a href="/subpages/about.html">About</a></div>
+            <div class="btn-menu"><a href="/subpages/projects.html">Projects</a></div>
+            <div class="btn-menu"><a href="/subpages/skills.html">Skills</a></div>
+            <div class="btn-menu"><a href="/subpages/contact.html">Contact</a></div>
         </div>
     </div>
 <div id="list">
     <div id="projects">
         <h2>Project list</h2>
-        <ul>
-            <li>Kółko i krzyżyk</li>
-<img src="img/krzyzyk.png" class="image" alt="krzyzyk" style="width:20%" />
-            <li>Szubienica</li>
-<img src="img/hangman.png" class="image" alt="krzyzyk" style="width:20%" />
-            <li>Todolist</li>
-<img src="img/todolist.png" class="image" alt="krzyzyk" style="width:20%" />
-
-        </ul>
+        <div class="list">
+            <img src="img/krzyzyk.png" class="image" alt="krzyzyk"/>
+            <img src="img/hangman.png" class="image" alt="hangman"/>
+            <img src="img/todolist.png" class="image" alt="todolist"/>
+        </div>
     </div>
-    
-    
     <div id="skill">
         <div class= "content-skill">
-        <h2>Skill list</h2>
-        
+        <h2>Skill list</h2>   
             <ul class="front" >
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>React</li>
-                
-            </ul>
-           
+                <li>React</li>  
+            </ul>     
         </div>
     </div>
 </div>
@@ -57,10 +47,10 @@
                 <a href='https://facebook.com' target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href='https://instagram.com' target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href='https://linkedin.com' target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="contact.html"><i class="far fa-envelope"></i></a>
+                <a href="/subpages/contact.html"><i class="far fa-envelope"></i></a>
         </div>
         <div id="napis"> &copy Copyright CodersCamp 2018</div>
     </div>
 </div>
-    </body>
+</body>
 </html>
